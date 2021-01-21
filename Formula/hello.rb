@@ -5,12 +5,12 @@
 class Hello < Formula
   desc "Hello World"
   homepage "https://github.com/johnsmyth/hello/blob/main/README.md"
-  version "0.0.22"
+  version "0.0.23"
   bottle :unneeded
 
   if OS.mac?
-    url "https://github.com/johnsmyth/hello/releases/download/v0.0.22/hello_darwin_amd64.zip"
-    sha256 "cc699d104b60179f95ebd9db69b0b966da10fd26dba30c52ec0dde845afc0f92"
+    url "https://github.com/johnsmyth/hello/releases/download/v0.0.23/hello_darwin_amd64.zip"
+    sha256 "9f0ccfb2ab3c22fe9b1422ab06d403b356de528ea5841c598d8cc9b99b78dbe9"
   end
 
   def install
